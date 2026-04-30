@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"OmegaDB/schema"
+	"github.com/Vivek-Kalola/omega-db/schema"
 )
 
 func TestCollectionCRUD(t *testing.T) {

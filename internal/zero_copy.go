@@ -1,6 +1,6 @@
 // Package internal provides low-level, performance-critical utilities used
-// across OmegaDB packages. Functions here use unsafe but are safe in the
-// specific context of OmegaDB because underlying byte slices are never mutated
+// across omega-db packages. Functions here use unsafe but are safe in the
+// specific context of omega-db because underlying byte slices are never mutated
 // after creation.
 package internal
 

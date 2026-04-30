@@ -1,7 +1,7 @@
 package schema
 
 import (
-	"OmegaDB/node"
+	"github.com/Vivek-Kalola/omega-db/node"
 	"testing"
 )
 

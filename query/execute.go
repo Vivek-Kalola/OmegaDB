@@ -3,7 +3,7 @@ package query
 import (
 	"bytes"
 
-	"OmegaDB/node"
+	"github.com/Vivek-Kalola/omega-db/node"
 )
 
 // Execute runs the compiled query plan against a root node and returns all matching raw JSON slices.

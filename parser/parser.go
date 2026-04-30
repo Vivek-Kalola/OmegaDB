@@ -1,10 +1,11 @@
 package parser
 
 import (
-	"OmegaDB/node"
 	"bytes"
 	"errors"
 	"fmt"
+
+	"github.com/Vivek-Kalola/omega-db/node"
 )
 
 // Parse parses the raw JSON bytes into a lazily-loaded Node tree.

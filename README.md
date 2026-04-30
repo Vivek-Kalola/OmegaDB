@@ -45,7 +45,7 @@ Most Go JSON databases force you to choose between **speed** and **safety**. Ome
 ### In-Memory Collection (no persistence)
 
 ```go
-import "OmegaDB/db"
+import "omega-db/db"
 
 col := db.NewCollection(nil) // nil = no schema, accept any JSON
 
@@ -83,8 +83,8 @@ defer col.Close()
 
 ```go
 import (
-    "OmegaDB/db"
-    "OmegaDB/schema"
+    "omega-db/db"
+    "omega-db/schema"
 )
 
 s := &schema.Schema{

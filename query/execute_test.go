@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"OmegaDB/node"
+	"github.com/Vivek-Kalola/omega-db/node"
 )
 
 // buildTree constructs a small in-memory AST for test purposes.

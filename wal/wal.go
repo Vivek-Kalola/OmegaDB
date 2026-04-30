@@ -1,4 +1,4 @@
-// Package wal implements a Write-Ahead Log for OmegaDB.
+// Package wal implements a Write-Ahead Log for omega-db.
 //
 // Every mutation (Insert, Update, Delete) is durably appended to the WAL file
 // before the in-memory state is modified. On restart, the WAL is replayed to

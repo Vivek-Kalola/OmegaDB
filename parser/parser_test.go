@@ -1,9 +1,10 @@
 package parser
 
 import (
-	"OmegaDB/node"
 	"encoding/json"
 	"testing"
+
+	"github.com/Vivek-Kalola/omega-db/node"
 )
 
 func TestParseValidJSON(t *testing.T) {

@@ -1,4 +1,4 @@
-// Package store implements snapshot serialization for OmegaDB.
+// Package store implements snapshot serialization for omega-db.
 //
 // A snapshot is a point-in-time binary dump of all documents in a collection.
 // It is used at startup to restore in-memory state quickly, after which the WAL

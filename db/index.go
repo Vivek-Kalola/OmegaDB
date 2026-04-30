@@ -1,9 +1,9 @@
 package db
 
 import (
-	"OmegaDB/internal"
-	"OmegaDB/node"
-	"OmegaDB/query"
+	"github.com/Vivek-Kalola/omega-db/internal"
+	"github.com/Vivek-Kalola/omega-db/node"
+	"github.com/Vivek-Kalola/omega-db/query"
 )
 
 // Index provides an O(1) Hash map lookup for specific JSON paths.

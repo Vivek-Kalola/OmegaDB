@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"sync"
 
-	"OmegaDB/internal"
-	"OmegaDB/node"
-	"OmegaDB/parser"
-	"OmegaDB/query"
-	"OmegaDB/schema"
-	"OmegaDB/store"
-	"OmegaDB/wal"
+	"github.com/Vivek-Kalola/omega-db/internal"
+	"github.com/Vivek-Kalola/omega-db/node"
+	"github.com/Vivek-Kalola/omega-db/parser"
+	"github.com/Vivek-Kalola/omega-db/query"
+	"github.com/Vivek-Kalola/omega-db/schema"
+	"github.com/Vivek-Kalola/omega-db/store"
+	"github.com/Vivek-Kalola/omega-db/wal"
 
 	"github.com/google/uuid"
 )

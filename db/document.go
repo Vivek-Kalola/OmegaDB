@@ -1,6 +1,6 @@
 package db
 
-import "OmegaDB/node"
+import "github.com/Vivek-Kalola/omega-db/node"
 
 // Document represents a single JSON record stored in the database.
 type Document struct {

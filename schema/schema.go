@@ -1,8 +1,8 @@
 package schema
 
 import (
-	"OmegaDB/node"
 	"fmt"
+	"github.com/Vivek-Kalola/omega-db/node"
 )
 
 // FieldType defines the expected type of a JSON field in the schema.
